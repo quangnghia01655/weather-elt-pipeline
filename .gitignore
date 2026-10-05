@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore DuckDB database files (these should be generated locally)
+*.duckdb
+*.duckdb.wal
+
+# Ignore raw data files (to avoid uploading large datasets)
+data/raw/*.csv
+
+# Ignore dbt hidden files
+target/
+dbt_packages/
+logs/
